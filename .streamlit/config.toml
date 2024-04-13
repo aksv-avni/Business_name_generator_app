@@ -10,6 +10,8 @@
 # Background color for the main content area.
 backgroundColor = "#230C33"
 
+mode = "wide"
+
 # Background color used for the sidebar and most interactive widgets.
 secondaryBackgroundColor = "#B27C66"
 
