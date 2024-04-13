@@ -1,3 +1,5 @@
+langchain-core
+langchain
 langchain-cohere
 langchain_cohere
 langchain_core.messages 
