@@ -14,7 +14,7 @@ backgroundColor = "#230C33"
 secondaryBackgroundColor = "#B27C66"
 
 # Color used for almost all text.
-# textColor =
+textColor = "#ffffff" 
 
 # Font family for all text in the app, except code blocks. One of "sans serif",
 # "serif", or "monospace".
