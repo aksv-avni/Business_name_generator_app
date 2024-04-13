@@ -2,8 +2,6 @@ langchain-core
 langchain
 langchain-cohere
 langchain_cohere
-langchain_core.messages 
-AIMessage
 langchain.prompts.chat 
 ChatPromptTemplate
 streamlit
