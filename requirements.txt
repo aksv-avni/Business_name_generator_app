@@ -1,4 +1,4 @@
-langchain
+langchain-cohere
 ChatCohere
 langchain_core.messages 
 AIMessage
