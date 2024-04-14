@@ -5,4 +5,4 @@
 - ## Choose a Business Domain :
 - ![](assets/images/2.png)
 
-- ## Link to the app 👉  ![Link](https://business-name-generator-app.streamlit.app/)
+- ## Link to the app 👉  [Link](https://business-name-generator-app.streamlit.app/)
