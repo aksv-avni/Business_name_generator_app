@@ -4,7 +4,7 @@ import langchain_helper
 
 st.title("NameSphere : Trend Explorer & Business Naming Guru😎")
 st.header("**Generate your Business Name and stay updated on the latest trends within your Industry.🎯**")
-st.write("_Your response is baking! Please hold on a bit longer...😊_")
+st.write("_Your response is getting baked ! Please hold on a bit longer...😊_")
 domain = st.sidebar.selectbox("Choose your Domain", ("Technology 👨‍💻","Apparels 👕","Healthcare 🩺", "Finance 💰","Retail 📊"
                                             ,"Fashion and Beauty 💄","Hospitality 🏨", "Education 📚",
                                             "Sports 🏀"))
