@@ -11,7 +11,7 @@ chat_model = ChatCohere(cohere_api_key="7vuRcifreUcrTmd7BhawUHKDpRgTFhKx89mRI51J
 def gen_business_name(domain):
     
     template = "You are a helpful assistant that generates a Business name for a given product."
-    human_template = "give a company name for products of type : {product}, please don't include words like 'sure!' at the start, also don't ask any further question in the results."
+    human_template = "give a company name for products of type : {product}, please don't include words like 'sure!' at the start."
 
     chat_prompt = ChatPromptTemplate.from_messages([
         ("system", template),
@@ -24,7 +24,7 @@ def gen_business_name(domain):
     name_output = chain.invoke({"product" : domain}).content
     
     template_command = "You are a helpful assistant that generates all the latest trends for a given Business domain."
-    human_command = "give the latest trends for business domain : {domain}, please don't include words like 'sure!' at the start, also don't ask any further question in the results."
+    human_command = "give the latest trends for business domain : {domain}, please don't include words like 'sure!' at the start."
     
     trend_prompt = ChatPromptTemplate.from_messages([
         ("system",template_command),
