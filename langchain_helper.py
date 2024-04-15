@@ -4,7 +4,7 @@ from langchain.prompts.chat import ChatPromptTemplate
 
 
 
-chat_model = ChatCohere(cohere_api_key="7vuRcifreUcrTmd7BhawUHKDpRgTFhKx89mRI51J", temperature = 0.6 )
+chat_model = ChatCohere(cohere_api_key="i2g6h90Q6ouBBph6VPNMqpTxImkbj5vJSu1tyA0H", temperature = 0.6 )
 
 # os.environ["SERPAPI_API_KEY"] = "d6315857583bc9a0810143011f8a996a1b3f83324560162667cf7996ff266273"
 
