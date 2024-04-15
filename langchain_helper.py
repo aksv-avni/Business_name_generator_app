@@ -4,7 +4,7 @@ from langchain.prompts.chat import ChatPromptTemplate
 
 
 
-chat_model = ChatCohere(cohere_api_key="i2g6h90Q6ouBBph6VPNMqpTxImkbj5vJSu1tyA0H", model = "command-r", max_tokens = 100, temperature = 0.6 )
+chat_model = ChatCohere(cohere_api_key="i2g6h90Q6ouBBph6VPNMqpTxImkbj5vJSu1tyA0H", model = "command-r", max_tokens = 100, temperature = 0.3 )
 
 def gen_business_name(domain):
     
@@ -22,7 +22,7 @@ def gen_business_name(domain):
     name_output = chain.invoke({"product" : domain}).content
     
     template_command = "You are a helpful assistant that generates all the latest trends for a given Business domain."
-    human_command = "give the latest trends for business domain : {domain}, please don't include words like 'sure!' at the start."
+    human_command = "give the latest trends for business domain : {domain}, please don't include words like 'sure!' at the start. Return a simple bullet list and don't be descriptive."
     
     trend_prompt = ChatPromptTemplate.from_messages([
         ("system",template_command),
