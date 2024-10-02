@@ -4,7 +4,7 @@ from langchain.prompts.chat import ChatPromptTemplate
 
 
 
-chat_model = ChatCohere(cohere_api_key="i2g6h90Q6ouBBph6VPNMqpTxImkbj5vJSu1tyA0H", model = "command-r", max_tokens = 100, temperature = 0.3 )
+chat_model = ChatCohere(cohere_api_key="X1bXjIYCd9N7Bf0onUd6Qao0UozOu5gNBj6rE58u", model = "command-r", max_tokens = 100, temperature = 0.3 )
 
 def gen_business_name(domain):
     
